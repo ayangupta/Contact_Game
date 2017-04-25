@@ -278,6 +278,7 @@ int main() {
                                 lcorrect=1;       
                                 sc[j].score++; 
                                 idname[j].points+=2;
+                                printf("points- %d  name- %s\n",idname[j].points,idname[j].name );
 
                             }
                             else{

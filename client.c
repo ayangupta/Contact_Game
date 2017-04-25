@@ -119,6 +119,7 @@ int main()
     }
 
   while(2>1){
+    bzero(buffer,499);
     read(clientSocket,buffer,499);
     if(strcmp(buffer,"NEW")==0){printf("Round 1 Ends\n");bzero(buffer,499);break;}
     if(strcmp(buffer,"Enter the word")==0)
@@ -256,6 +257,8 @@ int main()
         }
 
 }
+
+leaderflag=0;
 }
 
 
