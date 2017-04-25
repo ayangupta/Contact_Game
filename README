@@ -1,0 +1,5 @@
+As the game starts there is a 10 seconds window for all th e clients to connect to the server
+For the question "Do you want to be the leader" the answer is case sensitive and should be "yes" or "no". If multiple yes are received then the server selects a leader at random out of those who replied yes. Atleast one person has to reply yes for this question.
+Whenever a question pops asking to write answer or PASS, PASS should be in all caps.
+Game switches between two levels 1 & 2, i.e. Novice and Expert.
+For the second level the number of contacts must be greater than or equal to half of the number of players.
